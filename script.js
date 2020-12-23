@@ -53,7 +53,7 @@ var game = {
         var count = 0;
 
         var interval = window.setInterval(function () {
-            var centisecondsRemaining = 360100 - count;
+            var centisecondsRemaining = 540100 - count;
             var hr = zeroFill(Math.floor(centisecondsRemaining / 360000));
             var min = zeroFill(Math.floor(centisecondsRemaining / 6000 % 60));
             var sec = zeroFill(Math.floor(centisecondsRemaining / 100 % 60));
